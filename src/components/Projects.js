@@ -1,6 +1,6 @@
-import websiteImg1 from '../assets/ecommerce-websites.jpg';
-import websiteImg2 from '../assets/food-ecommerce.jpg';
-import websiteImg3 from '../assets/website-blog.jpg';
+import websiteImg1 from '../assets/1.png';
+import websiteImg2 from '../assets/2.png';
+import websiteImg3 from '../assets/3.png';
 
 export default function Projects() {
 
@@ -8,18 +8,18 @@ export default function Projects() {
         projects : [
             {
                 image: websiteImg1,
-                description: 'A Ecommerce Website. Built with MERN Stack.',
-                link: 'https://github.com/jvlcode/jvlcart'
+                description: 'A Laboratory booking system. React ts, Tailwind css, and spring boot',
+                link: 'https://github.com/SathurshanPrabaharan/CO2-lab-booking-app-frontend'
             },
             {
                 image: websiteImg2,
-                description: 'Food Ecommerce website like Swiggy, Built with Angular & .Net',
-                link: 'https://github.com/jvlcode/food'
+                description: 'This is an e-commerce website built with Flutter and Firebase. It provides a smooth shopping experience, secure user authentication, and efficient management. The platform is optimized for fast performance and scalability.',
+                link: 'https://github.com/UZAIR025/FlutteApps.git'
             },
             {
                 image: websiteImg3,
-                description: 'Basic Blog Website . Built with Next JS and MongoDB',
-                link: 'https://github.com/jvlcode/blog'
+                description: 'This is a Smart Home Interface mobile app built using Flutter. It allows users to control and monitor home appliances remotely with real-time status updates and scheduling features. ',
+                link: 'https://github.com/UZAIR025/Smart_home.git'
             }
         ]
     }
@@ -28,7 +28,7 @@ export default function Projects() {
         <div className="w-full">
             <div className="flex flex-col px-10 py-5">
                 <h1 className="text-4xl border-b-4 border-secondary mb-5 w-[150px] font-bold">Projects</h1>
-                <p>These are some of my best projects. I have built these with React, MERN and vanilla CSS. Check them out.</p>
+                <p>These are some of my best projects.</p>
             </div>
         </div>
         <div className="w-full">

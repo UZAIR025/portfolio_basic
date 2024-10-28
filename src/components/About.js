@@ -2,9 +2,9 @@ import AboutImg from '../assets/about.png';
 
 export default function About () {
     const config  = {
-        line1: 'Hi, My name is JV Logesh. I am a Full stack web developer. I built beautiful Websites with React.js , Tailwind CSS + Bootstrap',
-        line2: 'I am proficient in Frontend skills like React.js, Redux, Redux Tool Kit, Axios, Tailwind CSS, SaSS, Css3 and many more.',
-        line3: 'In backend I know Node.js, Express.js, MongoDB, and Mongoose'
+        line1: 'I am a fourth-year Computer Engineering undergraduate with a passion for building innovative software solutions. From front-end design to back-end logic, I specialize in Full-Stack Development, ensuring every project I work on is scalable, efficient, and user-friendly. With a focus on clean and maintainable code, I am committed to following industry best practices, such as SOLID principles and Agile methodologies.',
+        line2: 'Throughout my academic journey, I have honed my skills by leading and collaborating on multiple projects, including a Laboratory Booking System and a Hotel and Flight Booking Platform. These projects enhanced my expertise in React, Flutter, Spring Boot, and Firebase. I also have hands-on experience with databases, implementing ACID-compliant MySQL systems to guarantee reliable transactions. My ability to integrate APIs and use modern frameworks ensures seamless development workflows and optimal performance.',
+        line3: 'Looking ahead, I aim to contribute meaningfully to dynamic software development teams, where I can apply my problem-solving mindset and continuously grow my technical abilities. My goal is to develop impactful software solutions that align with business needs and improve user experiences. I am always eager to explore new technologies and embrace challenges that foster both personal and professional growth.'
     }
 
     return <section className='flex flex-col md:flex-row bg-secondary px-5' id='about'>

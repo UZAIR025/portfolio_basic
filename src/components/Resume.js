@@ -1,8 +1,10 @@
 import ResumeImg from '../assets/resume.jpg';
+import ResumwPDF from '../documents/Uzair_CV.pdf'
 
 export default function Resume () {
     const config = {
-        link: 'https://www.africau.edu/images/default/sample.pdf'
+        link: ResumwPDF
+
     }
 
     return <section id='resume' className='flex flex-col md:flex-row bg-secondary px-5'>

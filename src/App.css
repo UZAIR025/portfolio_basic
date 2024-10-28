@@ -33,3 +33,39 @@ header ul li {
 html {
     scroll-behavior: smooth;
 }
+/* .header-option{
+    @apply text-white font-bold text-lg px-5 py-2 hover:bg-gray-800 hover:text-white rounded-lg;
+}
+.text-animation{
+    overflow: hidden;
+    animation: 
+    typing 3s steps(30, end),
+    cursor 0.5s step-end infinite alternate;
+} */
+
+.wrapper {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .typing-demo {
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    border-right: 3px solid;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
