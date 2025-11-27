@@ -7,6 +7,7 @@ import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 
+
 function App() {
   return (
     <div className="App">
@@ -20,5 +21,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
