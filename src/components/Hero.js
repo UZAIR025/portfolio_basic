@@ -5,7 +5,7 @@ export default function Hero() {
     const config  = {
         subtitle: {
             title: 'Full-stack developer',
-            description: 'I am a third-year undergraduate of the Faculty of Engineering, University of Jaffna. I am reading for a BSc. (Hons.) Degree in Computer Engineering.'
+            description: 'I am a fresh graduate of the Faculty of Engineering, University of Jaffna. I am reading for a BSc. (Hons.) Degree in Computer Engineering.'
 
         },
         social: {
