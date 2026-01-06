@@ -2,10 +2,13 @@ import AboutImg from '../assets/about.png';
 
 export default function About () {
     const config  = {
-        line1: 'I am a fourth-year Computer Engineering undergraduate with a passion for building innovative software solutions. From front-end design to back-end logic, I specialize in Full-Stack Development, ensuring every project I work on is scalable, efficient, and user-friendly. With a focus on clean and maintainable code, I am committed to following industry best practices, such as SOLID principles and Agile methodologies.',
-        line2: 'Throughout my academic journey, I have honed my skills by leading and collaborating on multiple projects, including a Laboratory Booking System and a Hotel and Flight Booking Platform. These projects enhanced my expertise in React, Flutter, Spring Boot, and Firebase. I also have hands-on experience with databases, implementing ACID-compliant MySQL systems to guarantee reliable transactions. My ability to integrate APIs and use modern frameworks ensures seamless development workflows and optimal performance.',
-        line3: 'Looking ahead, I aim to contribute meaningfully to dynamic software development teams, where I can apply my problem-solving mindset and continuously grow my technical abilities. My goal is to develop impactful software solutions that align with business needs and improve user experiences. I am always eager to explore new technologies and embrace challenges that foster both personal and professional growth.'
-    }
+  line1: "I am a fresh Computer Engineering graduate with a strong passion for building reliable and innovative software solutions. I have a solid foundation in Full-Stack Development, working across both front-end interfaces and back-end logic to create scalable, efficient, and user-friendly applications. I prioritize clean, maintainable code and consistently follow industry best practices, including SOLID principles and Agile development methodologies.",
+
+  line2: "During my academic journey, I gained hands-on experience by leading and collaborating on several projects such as a Laboratory Booking System and a Hotel and Flight Booking Platform. These projects strengthened my technical skills in React, Flutter, Spring Boot, and Firebase. I also worked extensively with databases, implementing ACID-compliant MySQL systems to ensure data integrity and reliable transactions, while integrating RESTful APIs for smooth system communication.",
+
+  line3: "As a fresh graduate, I am highly motivated to begin my professional career in a dynamic software development environment where I can contribute effectively while continuing to grow as a developer. I aim to apply my problem-solving abilities to build impactful software solutions that align with business objectives and enhance user experience. I am eager to learn new technologies, adapt quickly, and take on challenges that support both personal and professional growth."
+}
+
 
     return <section className='flex flex-col md:flex-row bg-secondary px-5' id='about'>
         <div className='py-5 md:w-1/2'>
